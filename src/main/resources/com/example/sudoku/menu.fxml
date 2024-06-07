@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" prefHeight="400.0" prefWidth="500.0" stylesheets="@../../../styles/menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sudoku.MenuController">
+   <children>
+      <Button fx:id="newGame" layoutX="147.0" layoutY="94.0" mnemonicParsing="false" onAction="#newGame" prefHeight="84.0" prefWidth="206.0" text="New game" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button fx:id="loadgame" layoutX="147.0" layoutY="210.0" mnemonicParsing="false" onAction="#loadGame" prefHeight="84.0" prefWidth="206.0" text="Load game" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Label fx:id="sudoku" layoutX="147.0" prefHeight="84.0" prefWidth="206.0" text="SUDOKU" textAlignment="CENTER" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

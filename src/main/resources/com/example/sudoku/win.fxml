@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../styles/win.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sudoku.WinController">
+   <children>
+      <Button fx:id="back" layoutX="134.0" layoutY="312.0" mnemonicParsing="false" onAction="#back" prefHeight="73.0" prefWidth="332.0" text="POWRÓT TO MENU" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Label fx:id="end1" layoutX="252.0" layoutY="191.0" prefHeight="50.0" prefWidth="332.0" text="Mateusz Mianowski 325303" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="end2" layoutX="43.0" layoutY="123.0" prefHeight="50.0" prefWidth="235.0" text="Artur Górski 325275" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="end3" layoutX="28.0" layoutY="255.0" text="Jakub Woś 325337" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <Label fx:id="end4" layoutX="200.0" layoutY="23.0" text="Dziękujemy za grę!" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Label>
+      <Label fx:id="end5" layoutX="252.0" layoutY="78.0" text="Autorzy:" textFill="#d1d1d1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

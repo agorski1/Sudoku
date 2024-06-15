@@ -61,11 +61,11 @@ Here are some examples of what the game looks like:
   ![Main Menu](https://github.com/agorski1/Sudoku/tree/main/screenshots/menu.png)
 
 - **New game:**  
-  ![Gameplay](https://github.com/agorski1/Sudoku/tree/main/screenshots/game.png)
+  ![game](https://github.com/agorski1/Sudoku/tree/main/screenshots/game.png)
 
 
 - **Load game:**  
-  ![Gameplay](https://github.com/agorski1/Sudoku/blob/master/screenshots/game.png)
+  ![Gameplay](https://github.com/agorski1/Sudoku/blob/master/screenshots/load_game.png)
 
 
 - **Gameplay:**  

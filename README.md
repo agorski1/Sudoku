@@ -58,18 +58,18 @@ java --module-path "C:\JavaFX\javafx-sdk-24\lib" --add-modules javafx.controls,j
 ## Screenshots
 Here are some examples of what the game looks like:
 - **Main Menu:**  
-  ![Main Menu](https://raw.githubusercontent.com/agorski1/SudokuGame/main/screenshots/menu.png)
+  ![Main Menu](https://github.com/agorski1/Sudoku/tree/main/screenshots/menu.png)
 
 - **New game:**  
-  ![Gameplay](https://raw.githubusercontent.com/agorski1/SudokuGame/main/screenshots/game.png)
+  ![Gameplay](https://github.com/agorski1/Sudoku/tree/main/screenshots/game.png)
 
 
 - **Load game:**  
-  ![Gameplay](https://raw.githubusercontent.com/agorski1/SudokuGame/main/screenshots/gameplay.png)
+  ![Gameplay](https://github.com/agorski1/Sudoku/tree/main/screenshots/gameplay.png)
 
 
 - **Gameplay:**  
-  ![Gameplay](https://raw.githubusercontent.com/agorski1/SudokuGame/main/screenshots/gameplay.png)
+  ![Gameplay](https://github.com/agorski1/Sudoku/tree/main/screenshots/gameplay.png)
 
 
 

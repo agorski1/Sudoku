@@ -69,7 +69,7 @@ Here are some examples of what the game looks like:
 
 
 - **Gameplay:**  
-  ![Gameplay](https://github.com/agorski1/Sudoku/blob/main/screenshots/load_game.png)
+  ![Gameplay](https://github.com/agorski1/Sudoku/blob/main/screenshots/game.png)
 
 
 

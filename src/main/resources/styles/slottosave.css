@@ -1,0 +1,45 @@
+#background {
+  -fx-background-image: url("load/brickgr.jpg");
+}
+
+#slot1,
+#slot2,
+#slot3{
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, purple, 10, 0.8, 0, 0);
+}
+
+#slot1:hover, #slot2:hover, #slot3:hover {
+    -fx-effect: dropshadow(gaussian, blue, 10, 0.8, 0, 0);
+}
+
+#back{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, purple, 6, 0.8, 0, 0);
+}
+
+#back:hover{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, blue, 6, 0.8, 0, 0);
+}
+
+#back:pressed{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, green, 6, 0.8, 0, 0);
+}

@@ -1,0 +1,52 @@
+#background {
+  -fx-background-image: url("load/brickgr.jpg");
+}
+
+#back{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, purple, 6, 0.8, 0, 0);
+}
+
+#back:hover{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, blue, 6, 0.8, 0, 0);
+}
+
+#back:pressed{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, green, 6, 0.8, 0, 0);
+}
+
+#end1, #end2, #end3{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-effect: dropshadow(gaussian, purple, 6, 0.8, 0, 0);
+}
+
+#end1:hover{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-effect: dropshadow(gaussian, cyan, 6, 0.8, 0, 0);
+}
+#end2:hover{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-effect: dropshadow(gaussian, red, 6, 0.8, 0, 0);
+}
+#end3:hover{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-effect: dropshadow(gaussian, orange, 6, 0.8, 0, 0);
+}

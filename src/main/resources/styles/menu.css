@@ -1,0 +1,23 @@
+#background {
+  -fx-background-image: url("load/brickgr.jpg");
+}
+
+#loadgame,
+ #newGame {
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, purple, 10, 0.8, 0, 0);
+}
+
+#loadgame:hover, #newGame:hover {
+    -fx-effect: dropshadow(gaussian, green, 10, 0.8, 0, 0);
+}
+
+#sudoku {
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, purple, 10, 0.8, 0, 0);
+}

@@ -1,0 +1,73 @@
+#background {
+  -fx-background-image: url("load/brickgr.jpg");
+}
+
+#wybor {
+  -fx-font-size: 24px; /* Rozmiar czcionki */
+  -fx-font-weight: bold; /* Pogrubienie tekstu */
+  -fx-text-fill: #555555; /* Kolor tekstu */
+  -fx-padding: 20px; /* Wielkość wewnętrznych marginesów */
+}
+
+#easybutton,
+#mediumbutton,
+#hardbutton{
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, purple, 10, 0.8, 0, 0);
+}
+
+#easybutton:hover{
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, green, 10, 0.8, 0, 0);
+}
+#mediumbutton:hover{
+-fx-text-color: white;
+-fx-background-color: transparent;
+-fx-border-color: pink;
+-fx-border-width: 5px;
+-fx-border-radius: 5px;
+-fx-effect: dropshadow(gaussian, orange, 10, 0.8, 0, 0);
+}
+#hardbutton:hover{
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, red, 10, 0.8, 0, 0);
+}
+
+#back{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, purple, 6, 0.8, 0, 0);
+}
+
+#back:hover{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, blue, 6, 0.8, 0, 0);
+}
+
+#back:pressed{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, green, 6, 0.8, 0, 0);
+}

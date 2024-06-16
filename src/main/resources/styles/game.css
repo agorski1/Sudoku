@@ -1,0 +1,121 @@
+#anchorPane {
+  -fx-background-image: url("load/brickgr.jpg");
+}
+
+#gridPane {
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, purple, 10, 0.8, 0, 0);
+}
+#button1,
+ #button2,
+ #button3,
+ #button4,
+ #button5,
+ #button6,
+ #button7,
+ #button8,
+ #button9{
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, purple, 10, 0.8, 0, 0);
+}
+
+#button1:hover,
+ #button2:hover,
+ #button3:hover,
+ #button4:hover,
+ #button5:hover,
+ #button6:hover,
+ #button7:hover,
+ #button8:hover,
+ #button9:hover{
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-border-color: pink;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, blue, 10, 0.8, 0, 0);
+}
+
+#info {
+    -fx-text-color: white;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, red, 10, 0.8, 0, 0);
+}
+#lab00:hover, #lab01:hover, #lab02:hover, #lab03:hover, #lab04:hover, #lab05:hover, #lab06:hover, #lab07:hover, #lab08:hover,
+#lab10:hover, #lab11:hover, #lab12:hover, #lab13:hover, #lab14:hover, #lab15:hover, #lab16:hover, #lab17:hover, #lab18:hover,
+#lab20:hover, #lab21:hover, #lab22:hover, #lab23:hover, #lab24:hover, #lab25:hover, #lab26:hover, #lab27:hover, #lab28:hover,
+#lab30:hover, #lab31:hover, #lab32:hover, #lab33:hover, #lab34:hover, #lab35:hover, #lab36:hover, #lab37:hover, #lab38:hover,
+#lab40:hover, #lab41:hover, #lab42:hover, #lab43:hover, #lab44:hover, #lab45:hover, #lab46:hover, #lab47:hover, #lab48:hover,
+#lab50:hover, #lab51:hover, #lab52:hover, #lab53:hover, #lab54:hover, #lab55:hover, #lab56:hover, #lab57:hover, #lab58:hover,
+#lab60:hover, #lab61:hover, #lab62:hover, #lab63:hover, #lab64:hover, #lab65:hover, #lab66:hover, #lab67:hover, #lab68:hover,
+#lab70:hover, #lab71:hover, #lab72:hover, #lab73:hover, #lab74:hover, #lab75:hover, #lab76:hover, #lab77:hover, #lab78:hover,
+#lab80:hover, #lab81:hover, #lab82:hover, #lab83:hover, #lab84:hover, #lab85:hover, #lab86:hover, #lab87:hover, #lab88:hover
+{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, purple, 6, 0.8, 0, 0);
+}
+#lab00:active, #lab01:active, #lab02:active, #lab03:active, #lab04:active, #lab05:active, #lab06:active, #lab07:active, #lab08:active,
+#lab10:active, #lab11:active, #lab12:active, #lab13:active, #lab14:active, #lab15:active, #lab16:active, #lab17:active, #lab18:active,
+#lab20:active, #lab21:active, #lab22:active, #lab23:active, #lab24:active, #lab25:active, #lab26:active, #lab27:active, #lab28:active,
+#lab30:active, #lab31:active, #lab32:active, #lab33:active, #lab34:active, #lab35:active, #lab36:active, #lab37:active, #lab38:active,
+#lab40:active, #lab41:active, #lab42:active, #lab43:active, #lab44:active, #lab45:active, #lab46:active, #lab47:active, #lab48:active,
+#lab50:active, #lab51:active, #lab52:active, #lab53:active, #lab54:active, #lab55:active, #lab56:active, #lab57:active, #lab58:active,
+#lab60:active, #lab61:active, #lab62:active, #lab63:active, #lab64:active, #lab65:active, #lab66:active, #lab67:active, #lab68:active,
+#lab70:active, #lab71:active, #lab72:active, #lab73:active, #lab74:active, #lab75:active, #lab76:active, #lab77:active, #lab78:active,
+#lab80:active, #lab81:active, #lab82:active, #lab83:active, #lab84:active, #lab85:active, #lab86:active, #lab87:active, #lab88:active
+{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, blue, 6, 0.8, 0, 0);
+}
+
+#save, #back{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, purple, 6, 0.8, 0, 0);
+}
+
+#save:hover, #back:hover{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, blue, 6, 0.8, 0, 0);
+}
+
+#save:pressed, #back:pressed{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, green, 6, 0.8, 0, 0);
+}
+
+#grid1{
+     -fx-text-color: white;
+     -fx-background-color: transparent;
+     -fx-border-color: pink;
+     -fx-border-width: 5px;
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow(gaussian, purple, 6, 0.8, 0, 0);
+}
